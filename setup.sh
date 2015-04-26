@@ -4,7 +4,7 @@ echo "it will take some time to install, please wait in patient"
 sudo apt-get install -y vim vim-gnome ctags git
 
 mv -f ~/vim ~/vim_old
-cd ~/ && git clone https://github.com/HaoYan/vim.git
+cd ~/ && git clone https://github.com/Hao-Yan/vim.git
 mv -f ~/.vim ~/.vim_old
 mv -f ~/vim ~/.vim
 mv -f ~/.vimrc ~/.vimrc_old
