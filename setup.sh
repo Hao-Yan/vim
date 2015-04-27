@@ -1,7 +1,10 @@
 #!/bin/bash
 echo "it will take some time to install, please wait in patient"
 
+sudo apt-get install openssh-server
 sudo apt-get install -y vim vim-gnome ctags git
+
+sudo /etc/init.d/ssh start
 
 mv -f ~/vim ~/vim_old
 cd ~/ && git clone https://github.com/Hao-Yan/vim.git
