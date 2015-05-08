@@ -124,6 +124,13 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Bundle 'tpope/vim-rails.git'
 
+Bundle 'The-NERD-tree'
+Bundle 'winmanager'
+Bundle 'taglist.vim'
+Bundle 'minibufexpl.vim'
+Bundle 'bufexplorer.zip'
+Bundle 'OmniCppComplete'
+
 " Type 3 bundle plugin: non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
 
